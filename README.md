@@ -8,6 +8,7 @@ A simple script that hides and encodes a little bit your python code (not that s
 
 ## Functions
 - secret._compile(url)
+
 Compiles your encoded code, which is in a raw pastebin
 ```python
 import secret
@@ -21,6 +22,7 @@ secret._compile("https://hastebin.com/raw/vayosuqumi.py")
 ```
 
 - secret._hide(url)
+
 Encodes your code which is in a raw pastebin
 ```python
 import secret
@@ -29,6 +31,7 @@ secret._hide("https://hastebin.com/raw/vayosuqumi.py")
 ```
 
 - secret.hide_and_compile(url)
+
 Do both functions at once with detailed commentaries
 ```python
 import secret
