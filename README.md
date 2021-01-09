@@ -5,6 +5,7 @@ A simple script that hides and encodes a little bit your python code (not that s
 - Firstly you should have Python 3.x
 - Then you should download ``secret.py`` and add it to the directory of your script
 - Call its functions by importing the file.
+- You should encode it then paste it in a hastebin/pastebin/... and pass the raw url version
 
 ## Functions
 - secret._compile(url)
