@@ -8,7 +8,7 @@ A simple script that hides and encodes a little bit your python code (not that s
 - You should encode it then paste it in a hastebin/pastebin/... and pass the raw url version
 
 ## Functions
-- secret._compile(url)
+- ``secret.__compile__(url)``
 
 Compiles your encoded code, which is in a raw pastebin
 ```python
@@ -18,16 +18,16 @@ url content:
 
 print("hello world")
 """
-secret._compile("https://hastebin.com/raw/vayosuqumi.py")
+secret.__compile__("https://hastebin.com/raw/vayosuqumi.py")
 # output: hello world
 ```
 
-- secret._hide(url)
+- ``secret.__hide__(url)``
 
 Encodes your code which is in a raw pastebin
 ```python
 import secret
-secret._hide("https://hastebin.com/raw/vayosuqumi.py")
+secret.__hide__("https://hastebin.com/raw/vayosuqumi.py")
 # output: b'cHJpbnQoImhlbGxvIHdvcmxkIik='
 ```
 
